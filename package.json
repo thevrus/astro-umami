@@ -1,7 +1,7 @@
 {
-  "name": "astro-umami",
+  "name": "astro-umami-analytics",
   "version": "0.1.0",
-  "description": "Provides Analytics snippets injection for popular web analytics tools",
+  "description": "Astro component for easy integration of Umami analytics",
   "keywords": [
     "astro-component",
     "astro",
@@ -11,9 +11,13 @@
     "analytics",
     "umami"
   ],
+  "homepage": "https://github.com/thevrus/astro-umami",
+  "bugs": {
+    "url": "https://github.com/thevrus/astro-umami/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rusinvadym/astro-umami.git"
+    "url": "https://github.com/thevrus/astro-umami.git"
   },
   "license": "MIT",
   "author": {
@@ -32,6 +36,10 @@
   "scripts": {
     "build": "astro check"
   },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.2"
+  },
   "devDependencies": {
     "astro": "^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0"
   },
@@ -40,9 +48,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "typescript": "^5.6.2"
   }
 }
