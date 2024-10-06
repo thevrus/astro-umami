@@ -1,0 +1,13 @@
+---
+export interface Props {
+  id: string;
+}
+
+const { id } = Astro.props;
+---
+
+<script
+  is:inline
+  defer
+  src="https://cloud.umami.is/script.js"
+  data-website-id={id}></script>

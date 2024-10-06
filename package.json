@@ -1,0 +1,48 @@
+{
+  "name": "astro-umami",
+  "version": "0.1.0",
+  "description": "Provides Analytics snippets injection for popular web analytics tools",
+  "keywords": [
+    "astro-component",
+    "astro",
+    "astrolib",
+    "astro-integration",
+    "withastro",
+    "analytics",
+    "umami"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rusinvadym/astro-umami.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vadym Rusin",
+    "email": "rusinvadym@gmail.com"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "src",
+    "index.ts",
+    "types"
+  ],
+  "scripts": {
+    "build": "astro check"
+  },
+  "devDependencies": {
+    "astro": "^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0"
+  },
+  "peerDependencies": {
+    "astro": "^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.2"
+  }
+}
